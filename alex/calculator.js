@@ -1,22 +1,38 @@
-function add (firstNumber, secondNumber) {
 
+const add = (firstNumber,secondNumber) =>{
+   
     return firstNumber + secondNumber;
 
 }
 
-function substract (firstNumber,secondNumber){
+const substract = () =>{
     return firstNumber - secondNumber;
+
+}
+const multiply = () => {
+
+    return firstNumber * secondNumber;
+
 }
 
-function multiply () {
-    return firstNumber* secondNumber;
-}
+const divide = () => {
 
-function divide (firstNumber,secondNumber) {
     return firstNumber / secondNumber;
+
 }
 
 
-let result = add(3,88);
-result = multiply(result,91);
-console.log(result);
+
+
+// las siguientes funciones son las mismas
+
+function exampleFuncion (text){
+
+    return text.toLowerCase();
+}
+
+// la primera es version function y la segunda versión arrow, pero el texto significa el mismo
+
+const myFirstArrowFuncion = text => text.toLowerCase();
+
+console.log(myFirstArrowFuncion('Hola'));

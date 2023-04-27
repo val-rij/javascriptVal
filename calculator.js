@@ -1,17 +1,14 @@
-function add(firstNum, secondNum){
- return firstNum + secondNum;
-}
 
-function substract(firstNum, secondNum){
-    return firstNum - secondNum;
-}
+const add = (firstNum, secondNum)=> firstNum + secondNum; 
 
-function multiply(firstNum, secondNum){
-    return firstNum * secondNum;
-}
 
-function divide(firstNum, secondNum){
-    return firstNum / secondNum;
-}
+const substract = (firstNum, secondNum)=>  firstNum - secondNum; 
+
+
+const multiply = (firstNum, secondNum)=> firstNum * secondNum;
+
+
+const divide = (firstNum, secondNum)=> firstNum / secondNum;
+
 
 

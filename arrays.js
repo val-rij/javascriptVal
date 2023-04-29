@@ -36,8 +36,9 @@ const duplicate = (integer) => {
     console.log(integer * 2);
 }
 
-integers.forEach((integer) => console.log(integer * 2));
+const newList = integers.map((integer) => integer * 2);
 
+console.log(newList);
 
 // .forEach
 // .filter

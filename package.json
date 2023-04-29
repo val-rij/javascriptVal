@@ -1,8 +1,15 @@
 {
+<<<<<<< HEAD
   "name": "javascriptval",
   "version": "1.0.0",
   "description": "Ejercicios js",
   "main": "calculator.js",
+=======
+  "name": "javascript-fs-pt-41",
+  "version": "1.0.0",
+  "description": "Ejercicios js",
+  "main": "arrays.js",
+>>>>>>> e7ca51c9e2e6496461b5bbe1b8bdcc99daca32a7
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
